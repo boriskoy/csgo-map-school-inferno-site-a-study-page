@@ -1,0 +1,266 @@
+/* IMAGE MAP PAGE */
+
+img#image_map {
+    display: block;
+    margin: auto;
+}
+
+title {
+  font-size: 3em;
+  text-decoration: bold;
+}
+
+.ui-tooltip {   
+    background: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 2px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+    width: 100px;
+    margin: auto;
+  }
+  
+
+body {
+	background-color: black;
+}
+
+a {
+	color: skyblue;
+}
+
+div#top {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img#inferno_logo {
+	top: 150px;
+	z-index: 110;
+	position: relative;
+	float: left;
+	-webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.5); /* FF3.5+ */
+      -ms-transform: scale(0.5); /* IE9 */
+       -o-transform: scale(0.5); /* Opera 10.5+ */
+          transform: scale(0.5);
+             /* IE6–IE9 */
+             filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}
+
+h1#title {
+	font-family: 'Libre Baskerville', serif;
+    float: left;
+    position: relative;
+    z-index: 110;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    top: 205px;
+    margin-left: 60px;
+    font-size: 50px;
+    vertical-align: text-bottom;
+    color: rgba(235, 236, 190, 1);
+}
+
+
+
+img#inferno {
+	position: relative;
+	margin: auto;
+	display: block;
+}
+
+#q1_div,
+#q2_div,
+#q3_div,
+#q4_div,
+#q5_div,
+#q6_div,
+#q7_div,
+#q8_div {
+	position: absolute;
+	display:flex;
+	z-index:100;
+    align-items:center;
+}
+
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8 {
+    height: 25px;
+    float: left;
+    padding: 5px;
+    border: solid 2px #beafe0;
+    transition: border 0.3s;
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 18px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+}
+
+#q1 {
+    width: 80px;
+}
+
+#q2 {
+	width: 96px;
+}
+
+#q3 {
+	width: 50px;
+}
+
+#q4 {
+    height: 30px;
+}
+
+#q5 {
+	width: 73px;
+}
+
+#q6 {
+	width: 103px;
+}
+
+#q7 {
+    width: 98px;
+}
+
+#q8 {
+    width: 98px;
+}
+
+#q1_div {	
+	margin-top: -425px;
+	margin-left: 108px;	
+}
+
+#q2_div {	
+	margin-top: -360px;
+	margin-left: 940px;
+}
+
+#q3_div {
+	margin-top: -80px;
+	margin-left: 350px;
+}
+
+#q4_div {
+    margin-top: -350px;
+    margin-left: 480px;
+}
+
+#q5_div {
+    margin-top: -450px;
+    margin-left: 820px;
+}
+
+#q6_div {
+    margin-top: -507px;
+    margin-left: 250px;
+}
+
+#q7_div {
+    margin-top: -380px;
+    margin-left: 523px;
+}
+
+#q8_div {
+    margin-top: -453px;
+    margin-left: 604px;
+}
+
+.result_pic {
+	position: relative;
+    z-index:100;
+    width:20px;
+    height:20px;
+    margin-left:5px;
+}
+
+.submit {
+	left: 41.1%;
+	position: relative;
+	display: inline-block;
+    border-radius: 4px;
+    background-color: #8365dc;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.submit #submit_span {
+	cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.submit #submit_span:after {
+	content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submit:hover #submit_span {
+	padding-right: 25px;
+}
+
+.submit:hover #submit_span:after {
+	opacity: 1;
+    right: 0;
+}
+
+ol {
+	list-style: none;
+}
+
+p.grade {
+	    color: white;
+    /* font-family: 'Open Sans Condensed', sans-serif;
+    /* margin: auto; */
+    left: 62%;
+    vertical-align: top;
+    margin-top: -42px;
+    float: left;
+    text-align: left;
+    position: relative;
+    font-size: 1.2em; 
+}
+
+/* COUNTDOWN */
+
+h1.time,
+#seconds,
+.separator,
+#minutes,
+#centiseconds,
+#clock {
+    color: gray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+#clock {
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+}
+

@@ -1,0 +1,8 @@
+var answers = {
+    "balcony": ["Balcony", "BALCONY", "balcony"],
+    "graveyard": ["Graveyard", "GRAVEYARD", "graveyard"]
+};
+
+function markAnswers() {
+	
+}
